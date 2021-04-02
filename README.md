@@ -2,12 +2,12 @@
 
 > 基于 Vue + ElementUI 的轻应用，解决取名难题！
 
-在线使用：https://
+在线使用：https://luck-id.vercel.app/
 
 <br/>
 
 ## 实现原理
-
+参考鱼皮大佬教程：https://github.com/liyupi/good-name
 
 <br/>
 
