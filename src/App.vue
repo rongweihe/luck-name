@@ -3,15 +3,15 @@
     <!--    头-->
     <div class="header">
       <img class="logo" alt="logo" src="./assets/logo.jpg">
-      <span class="title">编程名生成</span>
+      <span class="title">好玩的编程ID生成器</span>
     </div>
     <!--    表单-->
     <el-form ref="form" :model="form">
       <el-form-item label="个人昵称或IP">
-        <el-input v-model="form.name" placeholder="如：鱼皮"></el-input>
+        <el-input v-model="form.name" placeholder="如：小贺"></el-input>
       </el-form-item>
       <el-form-item label="编程语言/方向">
-        <el-input v-model="form.domain" placeholder="如：Java、全栈、编程"></el-input>
+        <el-input v-model="form.domain" placeholder="如：D++、Java、全栈、编程"></el-input>
       </el-form-item>
       <el-form-item>
         <el-button type="primary" @click="onSubmit(false)">一键生成</el-button>
